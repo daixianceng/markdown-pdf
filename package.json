@@ -1,0 +1,16 @@
+{
+  "name": "markdown-pdf",
+  "description": "markdown to pdf",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js 127.0.0.1 8080",
+    "start-prod": "node ./index.js"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "markdown-it": "^8.4.2",
+    "markdown-it-imsize": "^2.0.1"
+  },
+  "license": "FSB License"
+}
